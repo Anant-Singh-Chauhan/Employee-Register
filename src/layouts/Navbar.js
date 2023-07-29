@@ -1,25 +1,36 @@
+import "./../colorScheme.css";
+import { Link } from "react-router-dom/cjs/react-router-dom";
+import logout from "./../assets/logout.svg";
+
 export default function Navbar() {
-    return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">Navbar</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-        
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
-                        <a className="nav-link" >Home<span className="sr-only"></span></a>
-                    </li>
+  return (
+    <nav className="navbar navbar-expand-lg bg-purple1 px-2 d-flex justify-content-between">
+      <div className="">
+        <Link
+          className="mx-3 bg-purple1"
+          style={{ textDecoration: "none" }}
+          to="./dashboard"
+        >
+          <h4 className="text-center" style={{fontWeight: 200}}>Employee Register</h4>
+        </Link>
+      </div>
+      <div>
+        <Link
+          className="mx-3 bg-purple1"
+          style={{ textDecoration: "none" }}
+          to="./aboutus"
+        >
+          About Us
+        </Link>
 
-                    <li className="nav-item active">
-                        <a className="nav-link" >Logout<span className="sr-only"></span></a>
-                    </li>
-                </ul>
-            </div>
-
-            </nav>
-        </div>
-    );
-};
+        <Link
+          className="mx-3 bg-purple1"
+          style={{ textDecoration: "none" }}
+          to="./login"
+        >
+          <img src={logout} alt="logout" />
+        </Link>
+      </div>
+    </nav>
+  );
+}

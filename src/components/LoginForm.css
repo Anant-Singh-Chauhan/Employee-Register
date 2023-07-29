@@ -1,0 +1,25 @@
+
+ .run{
+    transform: translateX(900%);
+ }
+ .btnLogin{
+    width:10%;
+    box-shadow: 0 4px 5px 0 rgba(92, 86, 86, 0.6);
+    transition: all 500ms ease-in-out !important;
+}
+
+.validationError{
+    box-shadow: 0 4px 5px 0 rgba(175, 9, 9, 0.6);
+    transition: all 500ms ease-in-out !important;
+}
+
+.btn-purple{
+    background-color : var(--purple-3);
+    color: white;
+}
+/* colors
+    purple-1: #28104E
+    purple-2: #6273A0
+    purple-3: #9754CB
+    purple-4: #DEACF5
+*/

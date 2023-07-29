@@ -1,0 +1,23 @@
+:root{
+    --purple-1: #28104E;
+    --purple-2: #6273A0;
+    --purple-3: #9754CB;
+    --purple-4: #DEACF5;
+}
+
+.bg-purple1{
+    background-color: var(--purple-1) !important;
+    color: white  !important;
+}
+.bg-purple2{
+    background-color: var(--purple-2) !important;
+    color: white  !important;
+}
+.bg-purple3{
+    background-color: var(--purple-3) !important;
+    color: white  !important;
+}
+.bg-purple4{
+    background-color: var(--purple-4) !important;
+    color: white  !important;
+}

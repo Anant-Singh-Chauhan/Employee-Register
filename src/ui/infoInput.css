@@ -4,5 +4,9 @@
     /* border: none; */
 }
 
+.infoInput-utils:hover{
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 5px 0 rgba(92, 86, 86, 0.6);
+}
 
 /* rgb(13,110,253) */
