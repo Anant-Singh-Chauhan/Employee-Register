@@ -21,3 +21,19 @@
     background-color: var(--purple-4) !important;
     color: white  !important;
 }
+
+.border-purple1{
+    border-color: var(--purple-1) !important;
+}
+
+.border-purple2{
+    border-color: var(--purple-2) !important;
+}
+
+.border-purple3{
+    border-color: var(--purple-3) !important;
+}
+
+.border-purple4{
+    border-color: var(--purple-4) !important;
+}

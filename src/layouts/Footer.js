@@ -61,6 +61,10 @@ export default function Footer() {
           <div className="row d-flex justify-content-center">
             <div className="col-lg-10">
               <p>
+                A product of <strong>HealthTech Solutions Pvt. Ltd.</strong>
+              </p>
+              <hr></hr>
+              <p>
                 We value our employees and are committed to providing a seamless
                 login experience. If you encounter any issues or have any
                 feedback, please don't hesitate to reach out to our support

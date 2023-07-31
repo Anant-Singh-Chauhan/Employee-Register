@@ -55,7 +55,7 @@ export default function LoginForm() {
   }
 
   return (
-    <div className="loginFrame container border border-primary rounded p-3 ">
+    <div className="loginFrame container border border-purple1 rounded p-3 ">
       <div className="d-flex flex-row justify-content-between">
         <div className="d-flex flex-row justify-content-between">
           <img src={img1_login} alt="img1" />

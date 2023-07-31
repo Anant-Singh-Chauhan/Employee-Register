@@ -8,17 +8,19 @@ import AboutUs from "./pages/AboutUs";
 function App() {
   return (
     <div>
-      <div className="" style={{height: "100vh"}}>
+      <div className="d-flex flex-column" style={{height: "100vh"}}>
         <Navbar />
-        <Route path="/login">
-          <Login />
-        </Route>
-        <Route path='/dashboard'>
-          <Dashboard/>
-        </Route>
-        <Route path='/aboutus'>
-          <AboutUs/>
-        </Route>
+        <div className="d-flex flex-row p-4 mx-auto my-auto flex-wrap border border-success rounded" style={{flex : "1"}}>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path='/dashboard'>
+            <Dashboard/>
+          </Route>
+          <Route path='/aboutus'>
+            <AboutUs/>
+          </Route>
+        </div>
       </div>
       <Footer/>
     </div>

@@ -1,23 +1,22 @@
 import "./../colorScheme.css";
 import { Link } from "react-router-dom/cjs/react-router-dom";
 import logout from "./../assets/logout.svg";
+import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-purple1 px-2 d-flex justify-content-between">
-      <div className="">
+    <nav className="navbar navbar-expand-lg bg-purple1 px-2 py-2 d-flex justify-content-between">
+      <div className="d-flex">
         <Link
-          className="mx-3 bg-purple1"
-          style={{ textDecoration: "none" }}
+          className="bg-purple1"
           to="./dashboard"
         >
-          <h4 className="text-center" style={{fontWeight: 200}}>Employee Register</h4>
+          <h4 className="navTitle text-center">Employee Register</h4>
         </Link>
       </div>
-      <div>
+      <div className="d-flex justify-content-around">
         <Link
           className="mx-3 bg-purple1"
-          style={{ textDecoration: "none" }}
           to="./aboutus"
         >
           About Us
@@ -25,7 +24,6 @@ export default function Navbar() {
 
         <Link
           className="mx-3 bg-purple1"
-          style={{ textDecoration: "none" }}
           to="./login"
         >
           <img src={logout} alt="logout" />

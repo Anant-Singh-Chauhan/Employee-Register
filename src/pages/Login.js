@@ -1,21 +1,22 @@
 import LoginForm from "../components/LoginForm";
-import "./../colorScheme.css"
+import "./../colorScheme.css";
 
 export default function Login() {
   return (
-    <div className="d-flex flex-row w-75 h-75 mx-auto my-auto flex-wrap border border-success rounded align-center " >
-      <div className="w-50">
-        <div>
-          <span>Welcome to</span>
-          <h2>Employee Register</h2>
-        </div>
-        
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates nihil laudantium distinctio ad, rerum nemo a?</p>
-        
+    <>
+      <div className="w-50 d-flex flex-column border border-purple1 rounded p-3 ">
+        <span>Welcome to</span>
+        <h2 className="border-purple2">HealthTech Solutions</h2>
+        <p className="tagline">Empowering Healthcare Innovations</p>
+        <p>
+          ...where we merge technology with compassion to revolutionize
+          healthcare. Together, let's pave the way for a healthier tomorrow.
+        </p>
       </div>
+
       <div className="w-50 ">
-        <LoginForm/>
+        <LoginForm />
       </div>
-    </div>    
+    </>
   );
 }
