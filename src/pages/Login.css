@@ -1,0 +1,14 @@
+.login{
+    width:90%;
+    height: 80%;
+}
+
+.loginForm{
+    width: 45%;
+    /* max-width: 50rem; */
+    min-width: 20rem;
+}
+
+.loginTitle{
+    min-width: 20rem;
+}

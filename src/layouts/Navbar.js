@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-purple1 px-2 py-2 d-flex justify-content-between">
+    <nav className="d-flex flex-row navbar navbar-expand-lg bg-purple1 px-2 py-2 d-flex justify-content-between">
       <div className="d-flex">
         <Link
           className="bg-purple1"

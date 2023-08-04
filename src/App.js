@@ -10,7 +10,7 @@ function App() {
     <div>
       <div className="d-flex flex-column" style={{height: "100vh"}}>
         <Navbar />
-        <div className="d-flex flex-row p-4 mx-auto my-auto flex-wrap border border-success rounded" style={{flex : "1"}}>
+        <div className="d-flex flex-row" style={{flex : "1"}}>
           <Route path="/login">
             <Login />
           </Route>

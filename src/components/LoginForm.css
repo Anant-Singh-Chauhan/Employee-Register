@@ -4,6 +4,7 @@
  }
  .btnLogin{
     width:10%;
+    min-width: 5rem;
     box-shadow: 0 4px 5px 0 rgba(92, 86, 86, 0.6);
     transition: all 500ms ease-in-out !important;
 }
